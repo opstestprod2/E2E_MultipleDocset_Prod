@@ -1,0 +1,19 @@
+{
+  "redirections": [
+    {
+      "source_path": "docs/Active/quickstarts/quick-start-1.md",
+      "redirect_url": "/archive/e2eprod_multipDocset_archive/Active/quickstarts/quick-start-1",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/Active/quickstarts/quick-start-2.md",
+      "redirect_url": "/archive/e2eprod_multipDocset_archive/Active/quickstarts/quick-start-2",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/Active/resources/resource.md",
+      "redirect_url": "/archive/e2eprod_multipDocset_archive/Active/resources/resource",
+      "redirect_document_id": false
+    }
+  ]
+}
