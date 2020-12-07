@@ -1,0 +1,12 @@
+{
+  "redirections": [
+    {
+      "source_path": "mac/installation.md",
+      "redirect_url": "/archive/e2eprod_mac_archive/installation",
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2019"
+      ]
+    }
+  ]
+}
