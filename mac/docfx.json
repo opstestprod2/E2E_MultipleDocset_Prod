@@ -2,8 +2,6 @@
   "build": {
     "content": [
       {
-        "group": "vsmac-2017",
-        "src": "2017",
         "files": [
           "**/*.md",
           "**/*.yml"
@@ -15,11 +13,11 @@
           "LICENSE",
           "LICENSE-CODE",
           "ThirdPartyNotices"
-        ]
+        ],
+        "src": "2017",
+        "group": "vsmac-2017"
       },
       {
-        "group": "vsmac-2019",
-        "src": "./",
         "files": [
           "**/*.md",
           "**/*.yml"
@@ -33,7 +31,9 @@
           "LICENSE-CODE",
           "ThirdPartyNotices",
           "non-version/**"
-        ]
+        ],
+        "src": "./",
+        "group": "vsmac-2019"
       },
       {
         "files": [
@@ -55,8 +55,6 @@
     ],
     "resource": [
       {
-        "group": "vsmac-2017",
-        "src": "2017",
         "files": [
           "**/*.png",
           "**/*.jpg",
@@ -66,11 +64,11 @@
         "exclude": [
           "**/obj/**",
           "**/includes/**"
-        ]
+        ],
+        "src": "2017",
+        "group": "vsmac-2017"
       },
       {
-        "group": "vsmac-2019",
-        "src": "./",
         "files": [
           "**/*.png",
           "**/*.jpg",
@@ -82,7 +80,9 @@
           "**/obj/**",
           "**/includes/**",
           "non-version/**"
-        ]
+        ],
+        "src": "./",
+        "group": "vsmac-2019"
       },
       {
         "files": [
@@ -138,21 +138,26 @@
       },
       "hideEdit": {
         "2017/**/*.md": true
+      },
+      "exclude_monikers": {
+        "installation.md": [
+          "vsmac-2019"
+        ]
       }
     },
     "template": [],
-    "xref": [],
     "dest": "e2e_docset_mac",
+    "markdownEngineName": "markdig",
+    "xref": [],
     "groups": {
       "vsmac-2017": {
-        "moniker_range": "vsmac-2017",
-        "dest": "2017"
+        "dest": "2017",
+        "moniker_range": "vsmac-2017"
       },
       "vsmac-2019": {
-        "moniker_range": "vsmac-2019",
-        "dest": "2019"
+        "dest": "2019",
+        "moniker_range": "vsmac-2019"
       }
-    },
-    "markdownEngineName": "markdig"
+    }
   }
 }
