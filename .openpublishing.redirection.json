@@ -1,0 +1,20 @@
+{
+  "redirections": [
+    {
+      "source_path": "mac/2017/ide-tour.md",
+      "redirect_url": "/archive/e2eprod_mac_archive/ide-tour",
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2017"
+      ]
+    },
+    {
+      "source_path": "mac/2017/installation.md",
+      "redirect_url": "/archive/e2eprod_mac_archive/installation",
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2017"
+      ]
+    }
+  ]
+}
