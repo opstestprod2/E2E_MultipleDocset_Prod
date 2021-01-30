@@ -1,0 +1,9 @@
+{
+  "redirections": [
+    {
+      "source_path": "mac/non-version/versionless.md",
+      "redirect_url": "/archive/e2eprod_mac_archive/non-v/versionless",
+      "redirect_document_id": false
+    }
+  ]
+}
