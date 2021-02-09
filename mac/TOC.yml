@@ -1,11 +1,7 @@
 - name: Visual Studio for Mac
   href: index.yml
 - name: Getting Started
-  items: 
-    - name: IDE Tour
-      href: ide-tour.md
+  items:
+  - name: IDE Tour
+    href: ide-tour.md
 - name: Installation
-  items: 
-    - name: Installing Visual Studio 2019 for Mac
-      href: installation.md
-
